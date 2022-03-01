@@ -1,0 +1,201 @@
+*{
+  padding: 50px;
+  margin: 50px;
+  align-content: center;
+  text-align: center;
+}
+.first-section{
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar{
+  background-color: none;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  border-bottom: 2px solid #f6bd60;
+}
+
+.navbar li{
+  list-style:none;
+  display: flex;
+}
+
+.navbar a{
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.navbar a:hover{
+  background-color: #343a40;
+  color: white;
+  border-radius: 20px;
+}
+
+.heading{
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.heading h1{
+  padding-top: 150px;
+  font-size: 55px;
+  color: white;
+  text-shadow: 5px 3px 6px #000000;
+}
+.heading p{
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+.btn{
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.2s all;
+}
+.btn:hover{
+  transform: scale(1.08);
+  background-color: #fff;
+  color: #000;
+}
+
+.second-section{
+  height: 100vh;
+  width: 100%;
+}
+
+.tickets{
+  float: center;
+  align-content: center;
+  margin: auto;
+}
+.tickets h1{
+  font-size: 50px;
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+}
+.table{
+  width: auto;
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-left: 520px;
+}
+.table thead{
+  background-color: #f6bd60;
+}
+.table thead tr th{
+  font-size: 25px;
+  opacity: 1;
+  padding: 10px;
+  vertical-align: top;
+  border: 1px solid grey;
+}
+.table tbody tr td{
+  line-height: 30px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: #fff;
+  opacity: 0.5;
+}
+.third-section{
+  height: 100vh;
+  width: 100%;
+}
+.about h1{
+  font-size: 50px;
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+}
+.items{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.item{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+.item img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  cursor:pointer;
+  transition: 0.2s ease;
+  border-radius: 6px;
+}
+.item img:hover{
+  transform: scale(1.04);
+}
+.about p{
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+}
+.fourth-section{
+  height: 100vh;
+  width: 100%;
+}
+.contact h1{
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+}
+.contact p{
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+}
+form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  padding: 10px;
+}
+form .user-details .input-box{
+  margin: 20px 0 12px 0;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #f6bd60;
+  font-size: 30px;
+}
+form .user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+}
