@@ -1,40 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="styles.css"?>
-<books>
-	<heading>information of the employees</heading>
-	<book>
-		<title>Title -: Web Programming</title>
-		<author>Author -: Chrisbates</author>
-		<publisher>Publisher -: Wiley</publisher>
-		<edition>Edition -: 3</edition>
-		<price> Price -: 300</price>
-	</book>
-	<book>
-		<title>Title -: Internet world-wide-web</title>
-		<author>Author -: Ditel</author>
-		<publisher>Publisher -: Pearson</publisher>
-		<edition>Edition -: 3</edition>
-		<price>Price -: 400</price>
-	</book>
-	<book>
-		<title>Title -: Computer Networks</title>
-		<author>Author -: Foruouzan</author>
-		<publisher>Publisher -: Mc Graw Hill</publisher>
-		<edition>Edition -: 5</edition>
-		<price>Price -: 700</price>
-	</book>
-	<book>
-		<title>Title -: DBMS Concepts</title>
-		<author>Author -: Navath</author>
-		<publisher>Publisher -: Oxford</publisher>
-		<edition>Edition -: 5</edition>
-		<price>Price -: 600</price>
-	</book>
-	<book>
-		<title>Title -: Linux Programming</title>
-		<author>Author -: Subhitab Das</author>
-		<publisher>Publisher -: Oxford</publisher>
-		<edition>Edition -: 8</edition>
-		<price>Price -: 300</price>
-	</book>
-</books>
+<TEAM>
+	<heading>Indian Cricket Employees</heading>
+	
+	<player>
+		<name>Virat Kolhi</name>
+		<age>29</age>
+		<position>middle order</position>
+		<runs>100000<runs>
+		<wickets>300</wickets>
+	</player>
+			<player>
+		<name>Sachin Tendulkar</name>
+		<age>45</age>
+		<position>opener</position>
+		<runs>10000<runs>
+		<wickets>500</wickets>
+	</player>
+			<player>
+		<name>Jasprit Bumrah</name>
+		<age>25</age>
+		<position>bowler</position>
+		<runs>1000<runs>
+		<wickets>2000</wickets>
+	</player>
+			<player>
+		<name>Ravindra Jadaja</name>
+		<age>24</age>
+		<position>allrounder</position>
+		<runs>10000<runs>
+		<wickets>800</wickets>
+	</player>
+			<player>
+		<name>KL Rahul</name>
+		<age>27</age>
+		<position>wicket keeper</position>
+		<runs>10000<runs>
+		<wickets>0</wickets>
+	</player>
+
+</TEAM>
