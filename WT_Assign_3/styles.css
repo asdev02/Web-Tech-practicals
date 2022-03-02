@@ -1,21 +1,24 @@
-books {
+TEAM {
 	color: white;
-	background-color : gray;
+	background-color : orange;
 	width: 100%;
   text-align: center;
   align-items: center;
   overflow: hidden;
 }
 heading {
-	color: red;
-	font-size : 40px;
-	background-color : yellow;
+	color: white;
+	font-size : 60px;
+	background-color : green;
   border: 2px solid black;
 }
-heading, title, author, publisher, edition, price {
+heading, name, age, position, runs, wickets {
 	display : block;
 }
 title {
-	font-size : 25px;
+	font-size : 35px;
 	font-weight : bold;
+}
+player{
+	border: 5px solid purple;
 }
