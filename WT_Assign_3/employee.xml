@@ -7,7 +7,7 @@
 		<name>Virat Kolhi</name>
 		<age>29</age>
 		<position>middle order</position>
-		<runs>100000<runs>
+		<runs>100000</runs>
 		<wickets>300</wickets>
 	</player>
 			<player>
@@ -21,21 +21,21 @@
 		<name>Jasprit Bumrah</name>
 		<age>25</age>
 		<position>bowler</position>
-		<runs>1000<runs>
+		<runs>1000</runs>
 		<wickets>2000</wickets>
 	</player>
 			<player>
 		<name>Ravindra Jadaja</name>
 		<age>24</age>
 		<position>allrounder</position>
-		<runs>10000<runs>
+		<runs>10000</runs>
 		<wickets>800</wickets>
 	</player>
 			<player>
 		<name>KL Rahul</name>
 		<age>27</age>
 		<position>wicket keeper</position>
-		<runs>10000<runs>
+		<runs>10000</runs>
 		<wickets>0</wickets>
 	</player>
 
